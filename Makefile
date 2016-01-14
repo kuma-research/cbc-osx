@@ -4,7 +4,8 @@ BINVERSION = 1.0
 
 default: all
 
-all: lib/cbc.jar lib/libcbc.a
+all: lib/cbc.jar 
+# Currently remove libcbc until assembler is ready. lib/libcbc.a
 
 lib/cbc.jar:
 	$(ANT) compile
